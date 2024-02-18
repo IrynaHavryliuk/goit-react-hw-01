@@ -3,7 +3,7 @@ import { FriendListItem } from './FriendListItem.jsx';
 
 export default function FriendList({ friends }) {
   return (
-    <ul>
+    <tr>
       {friends.map(({ id, isOnline, avatar, name }) => (
         <FriendListItem
           key={id}
@@ -12,7 +12,7 @@ export default function FriendList({ friends }) {
           name={name}
         />
       ))}
-    </ul>
+    </tr>
   );
 }
 

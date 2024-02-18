@@ -1,12 +1,8 @@
-.friend-list {
-  display: flex;
-  justify-content: center; /* Horizontally center items */
-  flex-direction: column;
-  align-items: center;
-  padding-top: 100px;
-  background-color: azure;
-}
-  
+/* .friend-list {
+    width: 100%;
+    background-color: white;
+  }
+   */
   .item {
     display: flex;
     align-items: center;
@@ -15,7 +11,7 @@
     border: 1px solid gray;
     border-radius: 8px;
     margin: 4px;
-    background-color: blanchedalmond;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   
