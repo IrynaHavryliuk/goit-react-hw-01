@@ -1,7 +1,6 @@
-import PropTypes from "prop-types";
 import defaultImage from "./defaultImage.png";
-import css from "./SocialProfile.module.css";
-
+import css from "./Profile.module.css";
+import PropTypes from "prop-types"; // Цей імпорт було видалено
 
 export default function Profile({
   username = "User Name",
@@ -43,7 +42,7 @@ export default function Profile({
   );
 }
 
-Profile.prototype = {
+Profile.propTypes = { // Виправлено з Profile.prototype на Profile.propTypes
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
